@@ -4,7 +4,7 @@ import unittest
 
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__),'../src')))
 
-from outfit_recommender import recommend_outfit
+from src.outfit_recommender import recommend_outfit
 
 class TestOutfitRecommender(unittest.TestCase):
     def test_recommend_outfit(self):
